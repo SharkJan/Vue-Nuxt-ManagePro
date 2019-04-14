@@ -1,0 +1,29 @@
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.container {
+  min-height: 500px;
+}
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  font-family: "微软雅黑";
+}
+section {
+  position: relative;
+}
+.superOver{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
